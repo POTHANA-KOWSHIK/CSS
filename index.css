@@ -1,0 +1,60 @@
+.rp{
+    @media screen {
+        display: flexbox;
+    }
+}
+
+.the{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 1px;
+}
+
+.li{
+    border: 2px solid black;
+    background-color: chartreuse;
+    display: flex;
+    width: 6vw;
+}
+
+.dd .pdf{
+    width:10% ;
+}
+
+.mt{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.ti{
+    display: flex;
+    flex-direction: column;
+}
+
+.ti .tk{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.tk{
+    margin-bottom: 2px;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;   
+}
+
+.img .txt{
+    border: 4px solid white;
+    border-radius: 15px;
+    background-color:aliceblue;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
